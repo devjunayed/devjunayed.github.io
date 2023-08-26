@@ -1,0 +1,14 @@
+.active{
+   border-color: brown;
+   border-top-width: 5px;
+}
+
+/* hover effect on my Skills */
+.skills:hover > .skill:not(:hover){
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+/* .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  } */

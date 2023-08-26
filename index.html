@@ -10,16 +10,21 @@
       rel="stylesheet"
       type="text/css"
     />
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- download cv button -->
-    <link rel="stylesheet" href="css/download-cv-btn.css">
+    <link rel="stylesheet" href="css/download-cv-btn.css" />
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/d24c534d38.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d24c534d38.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="lg:mx-20">
-    <header class="">
-      <div class=" py-4 text-center lg:text-left">
+    <header class="" id="home">
+      <div class="py-4 text-center lg:text-left">
         <div class="flex justify-center items-center">
           <h1 class="text-xl md:text-2xl lg:text-3xl">
             < <span class="text-red-400">Dev</span>Junayed/ >
@@ -29,100 +34,181 @@
       </div>
       <!-- hero -->
       <div class="hero lg:py-14">
-        <div class="hero-content flex-col lg:flex-row-reverse lg:gap-28 md:gap-20">
+        <div
+          class="hero-content flex-col lg:flex-row-reverse lg:gap-28 md:gap-20"
+        >
           <img
             src="/images/professional_junayed_img.png"
-            class="max-w-sm w-1/2 sm:w-10/12  rounded-full border-e-8 border-s-8 border-red-500"
+            class="max-w-sm w-1/2 sm:w-10/12 rounded-full border-e-8 border-s-8 border-red-500"
           />
           <div class="">
-            <h1 class="lg:text-4xl md:text-3xl text-xl font-bold w-full">I am a <span id="typed"></span></h1>
+            <h1 class="lg:text-4xl md:text-3xl text-xl font-bold w-full">
+              I am a <span id="typed"></span>
+            </h1>
             <p class="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
             <!-- download cv button -->
-            <div class="button w-28 h-11 bg-red-700 hover:bg-red-900 hover:cursor-pointer" data-tooltip="Size: 20Mb">
-              <div class="button-wrapper ">
-                <div class="text ">Download CV</div>
-                <span class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    width="2em"
-                    height="2em"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"
-                    ></path>
-                  </svg>
-                </span>
+            <a href="professional_junayed_img.png" download>
+              <div
+                class="button w-28 h-11 bg-red-700 hover:bg-red-900 hover:cursor-pointer"
+                data-tooltip="Size: 20Mb"
+              >
+                <div class="button-wrapper">
+                  <div class="text">Download CV</div>
+                  <span class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                      role="img"
+                      width="2em"
+                      height="2em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </header>
     <div class="divider"></div>
     <main>
-        <!-- about me -->
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row md:gap-24 lg:gap-32 ">
-              <img src="/images/more-about-me.jpg" class=" lg:max-w-sm rounded-lg shadow-md shadow-gray-500" />
-              <div>
-                <h1 class="lg:text-5xl md:text-3xl text-2xl font-bold">About me</h1>
-                <div class="w-32 h-1 bg-red-600 mt-4"></div>
-                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button class="btn btn-primary border-none bg-red-600 hover:bg-red-800 active:bg-red-900">More About ME</button>
-              </div>
-            </div>
-          </div>
-    </main>
-    <footer class="pb-20"></footer>
+      <!-- about me -->
+      <div class="hero" id="about-me">
+        <div class="hero-content flex-col lg:flex-row md:gap-24 lg:gap-32">
+          <img
+            src="/images/more-about-me.jpg"
+            class="lg:max-w-sm rounded-lg shadow-md shadow-gray-500"
+          />
+          <div>
+            <h1 class="lg:text-5xl md:text-3xl text-2xl italic">About me</h1>
+            <div class="w-32 h-1 bg-red-600 mt-4"></div>
+            <p class="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
 
-    <div class="btm-nav">
-      <button class="active" id="home-btm-btn">
+            <button
+              class="btn btn-primary border-none bg-red-600 hover:bg-red-800 active:bg-red-900"
+            >
+              More About ME
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div>
+        <div class="flex flex-col lg:mt-24">
+          <h1 class="lg:text-5xl md:text-3xl text-2xl italic">My Skills</h1>
+          <div class="w-32 h-1 bg-red-600 mt-4"></div>
+        </div>
+        <div class="flex mt-8 gap-4 justify-center flex-wrap skills">
+            <!-- single skill -->
+          <div class="flex skill justify-center items-center flex-col cursor-pointer hover:scale-105">
+            <div
+              class="justify-center items-center flex bg-gray-600 w-20 h-20 rounded-full text-4xl "
+            >
+             <img src="images/html.svg " class="w-10 h-10" alt="">
+            </div>
+            <p class="text-center">HTML5</p>
+          </div>
+          <!-- single skill -->
+
+
+
+            <!-- single skill -->
+          <div class="flex skill justify-center items-center flex-col cursor-pointer hover:scale-105">
+            <div
+              class="justify-center items-center flex bg-gray-600 w-20 h-20 rounded-full text-4xl "
+            >
+            <img src="images/css.svg " class="w-10 h-10" alt="">
+            </div>
+            <p class="text-center">CSS3</p>
+          </div>
+          <!-- single skill -->
+            <!-- single skill -->
+          <div class="flex skill justify-center items-center flex-col cursor-pointer hover:scale-105">
+            <div
+              class="justify-center items-center flex bg-gray-600 w-20 h-20 rounded-full text-4xl "
+            >
+            <img src="images/tailwind.svg" class="fill-white" alt="">
+            </div>
+            <p class="text-center">JavaScript6</p>
+          </div>
+          <!-- single skill -->
+        </div>
+      </div>
+    </main>
+    <footer class="pb-20" id="contact"></footer>
+
+    <!-- bottom navigation button -->
+    <div class="btm-nav" id="btm-nav">
+      <button class="btm-nav-btn active" id="home-btm-btn">
         <i class="fa-solid fa-house"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl ">Home</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl">Home</span>
       </button>
-      <button class="active">
+      <button class="" id="about-me-btm-btn">
         <i class="fa-solid fa-address-card"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl">About Me</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl"
+          >About Me</span
+        >
       </button>
-      <button>
+      <button class="btm-nav-btn" id="skills-btm-btn">
         <i class="fa-solid fa-laptop-code"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl">Skills</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl"
+          >Skills</span
+        >
       </button>
-      <button>
+      <button class="btm-nav-btn" id="services-btm-btn">
         <i class="fa-solid fa-gear"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl">Services</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl"
+          >Services</span
+        >
       </button>
-      <button>
+      <button class="btm-nav-btn" id="portfolio-btm-btn">
         <i class="fa-solid fa-folder-tree"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl">Portfolio</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl"
+          >Portfolio</span
+        >
       </button>
-      <button>
+      <button class="btm-nav-btn" id="contact-btm-btn">
         <i class="fa-solid fa-envelope"></i>
-        <span class="btm-nav-label text-xs md:text-base lg:text-xl">Contact</span>
+        <span class="btm-nav-label text-xs md:text-base lg:text-xl"
+          >Contact</span
+        >
       </button>
     </div>
 
     <!-- typed.js -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-         var typed = new Typed('#typed', {
-      strings: ['<i>mern stack developer</i>', '<i>full stack developer</i>', '<i>flutter developer</i>'],
-      typeSpeed: 50,
-      loop: true,
-    })
+      var typed = new Typed("#typed", {
+        strings: [
+          "<i>mern stack developer</i>",
+          "<i>full stack developer</i>",
+          "<i>flutter developer</i>",
+        ],
+        typeSpeed: 50,
+        loop: true,
+      });
     </script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
