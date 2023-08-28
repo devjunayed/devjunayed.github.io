@@ -12,3 +12,35 @@
     filter: blur(10px);
     transform: scale(0.9, 0.9);
   } */
+
+
+  /* My Skills */
+
+.progress {
+    height: 20px;
+      border-radius:20px;
+  
+  }
+  
+  .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+  }
+  .row span {
+    
+      display:block;
+      position: relative;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform:uppercase;
+      color: #888888;
+      line-height: 17px;
+      margin-bottom:5px;
+  }
+  .progress-bar {
+    text-align: left;
+    background-color: blue;
+    border-radius:20px;
+    transition-duration: 3s;
+  }
